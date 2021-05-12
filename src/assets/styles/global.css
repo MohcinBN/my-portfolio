@@ -15,10 +15,9 @@ html {
   --hover--color: #527751;
 }
 a {
-  color: #039;
-}
-a:hover {
-  color: #03f;
+  color: inherit;
+  outline: 2px solid transparent;
+  font-weight: 500;
 }
 
 * {

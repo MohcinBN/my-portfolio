@@ -90,4 +90,20 @@ ul > li > img {
 ul > li > img:hover {
   filter: none;
 }
+
+@media (max-width: 700px) {
+  .about-me-note {
+    font-size: 1rem;
+    line-height: 2;
+    width: inherit !important;
+    margin-top: 25px;
+  }
+  #about-me ul {
+    display: block;
+    text-align: center;
+  }
+  #about-me ul > li > img {
+    width: 31%;
+  }
+}
 </style>

@@ -7,7 +7,7 @@
         rel="noopener noreferrer"
       >
         <span>
-          Read my Blogs
+          Read my Blog
         </span>
       </a>
     </div>
@@ -37,5 +37,11 @@ export default {};
   font-size: 5rem;
   text-transform: uppercase;
   text-align: center;
+}
+
+@media (max-width: 700px) {
+  #blog span {
+    font-size: 2rem;
+  }
 }
 </style>

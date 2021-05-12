@@ -123,4 +123,12 @@ export default {};
   position: absolute;
   top: 24px;
 }
+@media (max-width: 700px) {
+  .work-item h2 {
+    line-height: 1;
+  }
+  #work {
+    padding: 54px 0 54px;
+  }
+}
 </style>

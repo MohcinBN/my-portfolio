@@ -60,4 +60,11 @@ main {
 ul > li {
   margin-right: 34px;
 }
+
+@media (max-width: 700px) {
+  #get-in-touch ul > li {
+    margin-right: 34px;
+    margin-bottom: 11px;
+  }
+}
 </style>

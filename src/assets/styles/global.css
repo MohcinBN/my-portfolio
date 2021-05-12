@@ -1,12 +1,69 @@
-body,
-form {
-  margin: 0;
+/****
+Global CSS
+****/
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Source+Sans+Pro:wght@400;600;700&display=swap);
+body {
   padding: 0;
   background-color: #ccc;
+  line-height: 1.5;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+html {
+  --heading--color: #fff;
+  --hover--color: #527751;
 }
 a {
   color: #039;
 }
 a:hover {
   color: #03f;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+}
+
+/** header **/
+
+header {
+  position: absolute;
+  width: 100vw;
+}
+
+header .content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 90vw;
+  width: 90vw;
+}
+
+.logo h2,
+.menu svg {
+  color: var(--heading--color);
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.logo h2:hover,
+.menu svg:hover {
+  color: var(--hover--color);
 }

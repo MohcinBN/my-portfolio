@@ -101,5 +101,8 @@ export default {
   #nav nav ul > li {
     margin-right: 0;
   }
+  #nav ul > li > a {
+    font-size: 2rem;
+  }
 }
 </style>

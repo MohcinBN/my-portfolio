@@ -6,4 +6,5 @@
 
 <style>
 @import "./assets/styles/global.css";
+@import "./assets/styles/normalize.css";
 </style>

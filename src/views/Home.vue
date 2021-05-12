@@ -3,6 +3,7 @@
     <NavBare msg="Nave bar portfolio" />
     <HelloWorld msg="Hello in my Portfolio" />
     <AboutMe msg="A little aboute me" />
+    <Work msg="Some of my works" />
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 import NavBare from "@/components/NavBare.vue";
 import AboutMe from "@/components/AboutMe.vue";
+import Work from "@/components/Work.vue";
 
 export default {
   name: "Home",
@@ -18,6 +20,7 @@ export default {
     HelloWorld,
     NavBare,
     AboutMe,
+    Work,
   },
 };
 </script>

@@ -4,7 +4,7 @@ Global CSS
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Source+Sans+Pro:wght@400;600;700&display=swap);
 body {
   padding: 0;
-  background-color: #ccc;
+  background-color: #f2f0f4;
   line-height: 1.5;
   font-size: 1rem;
   margin: 0 auto;
@@ -72,4 +72,10 @@ header .content-wrapper {
 .logo h2:hover,
 .menu svg:hover {
   color: var(--hover--color);
+}
+
+.section-title {
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 0;
 }

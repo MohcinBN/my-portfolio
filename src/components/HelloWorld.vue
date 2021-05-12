@@ -17,13 +17,6 @@
         <h3>Mohcin.</h3>
         <span>Software Developer</span>
       </div>
-      <aside class="personal-image">
-        <img
-          src="@/assets/images/image.jpg"
-          alt="my personal image"
-          class="w-100"
-        />
-      </aside>
     </main>
   </div>
 </template>
@@ -39,12 +32,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 main {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 77vw !important;
-  padding-top: 8%;
   color: #fff;
 }
 .personal-image img {
@@ -61,6 +58,10 @@ main {
   font-weight: 300;
   font-size: 3rem;
   line-height: 21px;
+}
+.welcoming h1 {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 25px 13px 25px 13px;
 }
 .welcoming h3 {
   font-weight: bold;

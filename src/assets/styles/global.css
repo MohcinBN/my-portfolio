@@ -46,6 +46,7 @@ a:hover {
 header {
   position: absolute;
   width: 100vw;
+  z-index: 11;
 }
 
 header .content-wrapper {
